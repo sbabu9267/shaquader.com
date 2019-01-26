@@ -1,1 +1,1 @@
-# shaquader.us
+# shaquader.com
