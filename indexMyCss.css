@@ -1,0 +1,57 @@
+ body{
+     align-self: center;
+     text-align: center;
+     justify-content: center;
+
+ }
+
+
+.jumbotron{
+   /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmNPo38qTbAjZRdrDAKFv4dQGa6N56XAXFtzf7vZgih4qNnuzTgw');
+   */
+   background-color: antiquewhite; 
+   width: 90% rem;
+}
+#top{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+@media only screen and (max-width:991px)
+{
+    #top{
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+    
+    .navbar{
+        flex-direction: row;
+        float: right;
+        height: 7%;
+    }
+}
+ @media only screen and (min-width:992px)
+ {
+     #about,#cc {
+         display: block; 
+         float:left;
+         width: 50%;
+     }
+     #dio{
+         text-align: right;
+     }
+     #T{
+         float: left;
+     }
+
+     #NT{
+         float: right;
+     }
+
+     #pewds{
+         display: block;
+         float: right;
+         
+     }
+
+ }
